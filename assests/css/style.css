@@ -1,0 +1,564 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
+}
+/* body{
+    background-color: aqua;
+} */
+
+/* nav style */
+
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 4.5572vw;
+    position: fixed;
+    width: 100vw;
+    z-index: 2;
+    background-color: #EFF8FF;
+}
+
+/* nav ul */
+
+nav ul,footer .copyright ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+/*nav ul a stlye*/
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* button login*/
+
+nav .login{
+    padding: 11px 50px;
+    background-color: #025595;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+}
+
+
+
+nav .list{
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+.hero{
+    position: relative;
+    height: 100vh;
+    padding-top: 122px;
+    padding-left: 4.5572vw;
+    background-color:#EFF8FF ;   
+}
+
+.hero .bg-hero{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.hero .discover{
+    max-width: 550px;
+    position: relative;
+    z-index: 2;  
+}
+
+.hero .discover h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.hero .discover .des, .section1 p,.section2 p,.section3 p,.section4 p{
+    max-width: 430px;
+    color: #22222280;
+    font-weight: 400;
+    font-size: 16px;
+    /* margin-bottom: 50px; */
+    line-height: 26px;
+}
+
+.hero form{
+    background-color:#FFFFFFCC;
+    max-width: 975px;
+    border-radius: 16px;  
+    margin-top: 50px;  
+    padding: 20px 70px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+   
+}
+
+.hero form .explain{
+    display: flex;
+    gap: 20px;
+}
+
+.hero form .icon{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: #f0f6fa;
+
+    
+}
+
+.hero form .type{
+    width: 134px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero form .type p{
+    font-weight: 500;
+}
+
+
+.hero form .type input{
+    border: none;
+    background:none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #222222;
+}
+
+.section1,.section4,footer{
+    margin: 13.4048vh 0;
+    padding: 0 4.5572vw;
+}
+
+.section1 h1, .section2 h1, .section3 h1,.section4 h1{
+    font-size: 39px;
+    font-weight: 700;
+}
+.section1 .container .card p{
+    max-width: 430px;
+    color: #22222280;
+    font-weight: 400;
+    font-size: 16px;
+    /* margin-bottom: 50px; */
+    line-height: 26px;
+    font-size: 15px;
+}
+
+
+
+.section1 .container,.section3 .container,.section4 .container{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 56px;
+    flex-wrap: wrap;
+}
+
+.section1 .container .card{
+    max-width: 380px;
+    border-radius: 15px;
+    padding: 30px 40px 80px 40px;
+}
+.section1 .card h2{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.section1 .card p{
+    font-size: 14px;
+    
+}
+
+.section1 .container .card.select{
+    background-color: #025595;
+    color: white;
+}
+
+.section1 .container .card.select p{
+    color: white;
+}
+
+
+.section2{
+    padding: 0 4.5572vw;
+
+}
+
+
+
+
+
+
+
+.section2 .explore{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section2 .btn{
+    color: white;
+    background-color: #025595;
+    border-radius: 6px;
+    padding: 14px 25px;
+
+}
+
+.section2 .chicken{
+    position: absolute;
+    right: 70px;
+    width: 1187px;
+    margin-top: 57px;
+    
+}
+
+
+
+.section2 .card1{
+    position: relative;
+    top:125px;
+    padding-left: 20px;
+    padding-top: 30px;
+    width: 340px;
+    background-color: #FFFFFFE5;
+    border-radius: 16px;
+}
+
+.section2 .price{
+    color: #222222;
+}
+
+.section2 .card1 h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 24px 0;
+}
+
+.section2 .card1 .decripe{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.section2 .card1 .decripe .minicard{
+    display: flex;
+    gap: 10px
+}
+
+.section2 .location,.section3 .location{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 94px;
+    padding-bottom: 30px;
+}
+
+.section2 .location p,.section3 .location p{
+    width: 203px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #222222;
+    line-height: 15px;
+}
+
+.section3{
+    margin-top: 300px;
+    padding: 0 4.5572vw;
+}
+.section3 .container{
+    gap: 30px;
+    max-width: 1632px;
+}
+
+.section3 .card{
+    width: 382px;
+    border-radius: 10px;
+    background-color: #DDDDDD26;
+    padding: 20px;
+}
+.section3 .card .m{
+    width: 100%;
+}
+
+.section3 .card .dolar{
+    color: #025595;
+    padding-top: 18px;
+    font-weight: 600;
+}
+
+.section3 .card h3{
+    width: 180px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.section3 .location{
+    padding-top: 38px;
+    padding-bottom: 0;
+}
+
+.section4 .lista{
+    display: flex;
+    gap: 50px;
+    padding: 56px 0;
+    width: 100%;
+    /* overflow-x: scroll; */
+
+}
+
+.section4 .lista p{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    padding-bottom: 15px;
+    flex-shrink: 0;
+}
+
+.section4 .lista p.active{
+    color: #025595;
+    border-bottom: 2px solid #025595;
+}
+
+.section4 .container .card{
+    position: relative;
+    
+    border-radius: 5px;
+}
+
+.section4 .container .card img{
+    width: 100%;
+}
+
+.section4 .container .card .btns{
+    position: absolute;
+    top: 14px;
+    left: 14px;
+}
+.section4 .card button{
+    padding: 6px 12px;
+    background-color: #22222266;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+footer{
+    background-color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+footer .top{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #2222221A;
+    
+}
+
+
+.top .colum{
+    line-height: 30px;
+}
+.top .colum h1{
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #222222;
+}
+
+.top .colum p,footer .copyright{
+    font-weight: 400;
+    font-size: 16px;
+    color: #222222;
+}
+
+.top #foot{
+    max-width: 350px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #22222280;
+    padding-top: 26px;
+    line-height: 20px;
+}
+
+.top .colum .iconfooter{
+    display: flex;
+    gap: 16px;
+    padding-top: 16px;
+}
+
+.top .colum .icons{
+    width: 50px;
+    height: 50px;
+    background-color: #025595;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+footer .copyright{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:992px) {
+
+
+    nav .logo{
+        width: 50px;
+    }
+
+    nav ul,.login,.section2 .btn{
+        display: none;
+    }
+
+    nav .list{
+        display: inline;
+    }
+    .hero,.section2{
+        padding-left: 20px;
+    }
+
+    .hero form{
+        gap: 24px;
+        width: 100vw;
+        position: relative;
+        left: -20px;
+        border-radius: 0; 
+        padding: 20px 20px;  
+    }
+
+    .hero .discover h1{
+        font-size: 35px;
+    }
+    .hero .discover .des{
+        font-size: 14px;
+    }
+
+    .hero form .type{
+        justify-content: center;
+        gap: 6px;
+    }
+    .hero form .type p{
+        font-size: 16px;
+    }
+
+    .hero .bg-hero{
+        height: 325px;
+    }
+
+
+
+    .section1 h1, .section2 h1,.section3 h1,.section4 h1{
+        font-size: 30px;
+        padding-bottom: 6px;
+    }
+
+    .section1 .container,/* .scetion3 .container */.section4 .container,footer .top{
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+    .section1 .container .card{
+        padding: 15px 17.5px 34px 17.5px;
+    }
+
+
+    .section2 .card1{
+        width: 100vw;
+        left: -20px;
+        border-radius: 0;
+        top: 250px;
+    }
+    .section4 .lista{
+        overflow-x: scroll;
+    }
+
+
+
+    .section2 .chicken{
+        right: 0;
+        width: 100vw;
+        height: 380px;       
+    }
+    footer .copyright ul{
+        padding-left: 10px;
+    }
+
+
+    footer .copyright p{
+        padding-bottom: 16px;  
+    }
+
+
+
+
+    
+
+
+
+
+
+  
+
+
+
+
+
+    
+
+
+
+
+    
+}
+
+
